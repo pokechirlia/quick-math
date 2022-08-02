@@ -63,13 +63,44 @@
             
         </div>
 
+        <!--How to play modal-->
+        <div id = "howtoplay" class = "modal fade" role = "dialog">
+            <div class = "modal-dialog modal-lg" role = "content">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <h4 class="modal-title statistic">More info</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+    
+                    <div class = "modal-body">
+                        <h5 class = "statistic">What is this about?</h5>
+                        <p>
+                            I made this web app to practice my web development skill.
+                            I also want to play this game to improve my calculation skill :)
+                        </p>
+                        <h5 class = "statistic">How to play?</h5>
+                        <p>
+                            Just press PLAY, then try to solve as many equations as possible within
+                            1 minute. Type in your answer in the box just above the PLAY button, then
+                            press NEXT to move on to the next question.
+                            The game will check your answer and add to your score if correct.
+                            This web will save your best score for each play.
+
+                        </p>
+                        <button type = "button" class = "btn btn-secondary ml-auto" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         <!--More information-->
         <footer class = "footer-copyright text-center">
-            <a class="btn btn-social-icon" href = "https://github.com/pokechirlia/quick-math">
+            <a class="btn btn-social-icon" href = "https://github.com/pokechirlia/quick-math" target="_blank">
                 <i class="fa fa-lg fa-github icon-color"></i>
             </a>
 
-            <a class="btn btn-social-icon" href="https://www.linkedin.com/in/chi-tran-khanh/">
+            <a class="btn btn-social-icon" href="https://www.linkedin.com/in/chi-tran-khanh/" target="_blank">
                 <i class="fa fa-lg fa-linkedin-square icon-color"></i>
             </a>
 
@@ -77,7 +108,7 @@
                 <i class="fa fa-lg fa-google icon-color"></i>
             </a>
 
-            <a class="btn " data-toggle="modal" data-target="#">
+            <a class="btn " data-toggle="modal" data-target="#howtoplay" >
                     <i class="fa fa-lg fa-question-circle icon-color"></i>
             </a>
                     

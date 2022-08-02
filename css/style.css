@@ -1,0 +1,59 @@
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    background-color: floralwhite;
+}
+
+.navbar-dark{
+    background-color: teal;
+}
+
+.navbar-brand{
+    color: floralwhite;
+    text-align: center;
+}
+
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 40px 0px 10px 0px;
+    min-height: 100px;
+}
+
+.statistic{
+    color: teal;
+    
+}
+
+.number-box{
+    font-size:400%;
+    border-style: solid;
+    text-align: center;
+    color: teal;
+}
+
+.operator{
+    color: teal;
+    text-align: center;
+    font-size:300%;
+}
+
+.btn-game{
+    background-color: teal;
+    color: floralwhite;
+    font-size:300%;
+    width:80%;
+    
+}
+
+.icon-color{
+    color: teal;
+}
+
+.footer {
+    background-color:  #D1C4E9;
+}

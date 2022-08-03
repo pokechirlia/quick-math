@@ -1,8 +1,15 @@
 let question_numbers = document.getElementsByClassName("question-box");
-let base_timer = 10;
+let base_timer = 60;
 let timer, score, best_score;
 let gameStart = false;
 let current_result;
+
+let input = document.getElementById("answer-input");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    startGame();
+  }
+});
 
 function startGame()
 {
@@ -30,7 +37,7 @@ function newGame()
 
 function submitAnswer()
 {
-    if(current_result == document.getElementById("answer-input").value)
+    if(current_result == input.value)
     {
         score++;
         document.getElementById('score').innerHTML = "SCORE: " + score;
@@ -83,7 +90,7 @@ function resetBox()
 
 function askQuestion()
 {
-    document.getElementById("answer-input").value = "";
+    input.value = "";
     question_numbers[0].innerHTML = Math.floor(Math.random() * 89 + 10);
     question_numbers[1].innerHTML = Math.floor(Math.random() * 89 + 10);
 

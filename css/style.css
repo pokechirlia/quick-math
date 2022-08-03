@@ -57,3 +57,10 @@ body{
 .footer {
     background-color:  #D1C4E9;
 }
+
+input.transparent-box{
+    width : 100%;
+    background-color:rgba(0,0,0,0) ;
+    border:none;
+    color: teal;
+ }
